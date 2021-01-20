@@ -1,0 +1,19 @@
+<!-- <p>switch works!</p> -->
+<h3>*ngSwitch</h3>
+<div [ngSwitch]="selectedValue">
+    <span *ngSwitchCase=1>Case 1</span>
+    <span *ngSwitchCase=2>Case 2</span>
+    <span *ngSwitchCase=3>Case 3</span>
+    <span *ngSwitchCase=4>Case 4</span>
+    <span *ngSwitchCase=5>Case 5</span>
+    <span *ngSwitchDefault>Default</span>
+</div>
+<br><br>
+Select Case: <select [(ngModel)]="selectedValue">
+    <option></option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+    <option value="4">Four</option>
+    <option value="5">Five</option>
+</select>

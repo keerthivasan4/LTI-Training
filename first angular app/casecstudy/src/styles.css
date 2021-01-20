@@ -1,0 +1,190 @@
+/* You can add global styles to this file, and also import other style files */
+header{
+    position:fixed;
+    margin-top:10px;
+    width:1200px;
+    margin-left:5%;
+    border:1px;
+    text-align:center;
+    border-color:white;
+    background-color:white;
+    padding:5px;
+}
+/*header:hover{
+    text-indent:10px;
+    background-color:#ff7d03;
+    border-color:#ff7d03;
+    font-size:130%;
+    color:white;
+    text-align:left;
+}*/
+
+nav{
+    position:fixed;
+    margin-top:100px;
+    padding:5px;
+    text-align:left;
+    width:1200px;
+    margin-left:5%;
+    border:1px;
+    border-color:#00029c;
+    background-color:#00029c;			
+}
+
+img{
+    position:relative;
+    width:214px;
+    height:270px;
+    margin-top:-90px;
+    margin-left:10px;
+}
+#img1{
+    margin-left:115px;
+}
+
+#tableHome{
+    font-weight:bold;
+    margin-left:70px;
+}
+#tableHometd{
+    width:237px;
+    text-align:center;
+    
+}
+
+li{
+    display:inline;
+    padding:10px;
+    background-color:#00029c;
+    margin:15px;
+    color:white;
+    font-weight:bold;
+}
+li:hover{
+    background-color:#0205c9;
+}
+a:hover{
+    color:white;
+}
+body{
+    background-color:lightgrey;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+
+
+footer{
+    margin-top:10px;
+    width:1200px;
+    height:50px;
+    line-height: 50px;
+    margin-left:5%;
+    border:1px;
+    border-style:solid;
+    text-align:center;
+    border-color:grey;
+    background-color:grey;
+    color:white;
+    padding:5px;
+    font-weight:bold;
+}
+
+#sec1{
+    padding:5px;
+    margin-top:10px;
+    width:1200px;
+    margin-left:5%;
+    border:1px;
+    border-color:white;
+    background-color:white;
+}
+#sec1 p{
+    margin:20px;
+}
+#sec2{
+
+    padding:5px;
+    padding-top:25px;
+    padding-bottom:100px;
+    margin-top:10px;
+    width:1200px;
+    margin-left:5%;
+    border:1px;
+    border-color:white;
+    background-color:white;
+    text-align:center;
+}
+
+
+#sectionRegister {
+padding:5px;
+margin-top:10px;
+width:1200px;
+margin-left:5%;
+border:1px;
+border-color:white;
+background-color:white;
+text-align:center;
+}
+input{
+padding:8px;
+width:300px;
+}
+fieldset{
+width:20px;
+text-align:left;
+margin-left:36%;
+border:none;
+}
+#formReg{
+font-weight:bold;
+}
+#registerButton{
+border:none;
+background-color:#00029c;
+color:white;
+width:320px;
+}
+#loginButton{
+border:none;
+background-color:#00029c;
+color:white;
+width:320px;
+}
+#check{
+padding:5px;
+text-align:left;
+margin-left:0px;
+width:20px;
+}
+#cancel{
+margin-left:20px;
+width:80px;
+height:40px;
+background-color:red;
+color:white;
+border-color:red;
+border-style:solid;
+
+}
+#div1{
+line-height:65px;
+margin-left:-25px;
+background-color:lightgrey;
+width:350px;
+height:70px;
+}
+#forget{
+float:right;
+color:black;
+}
+
+span{
+color:red;
+font-weight: bold;
+}
+#loginDiv{
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+<!-- <div>
+    <input type="text" (change)="greet($event)"/><br><br>
+    <button onclick="greet($event)">Click</button>
+    <span> {{msg}}</span>
+</div> -->
+<div>
+    <input type="text" [(ngModel)]="name"/><br><br>
+    <button (click)="greet()">Click</button>
+    <!-- <button onclick="{{greet()}}">Click</button> -->
+    <span> {{msg}}</span>
+</div>

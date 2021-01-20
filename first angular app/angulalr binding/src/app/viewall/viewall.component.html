@@ -1,0 +1,16 @@
+
+<table>
+    <tr ><td colspan='4' align="center">ViewAll</td></tr>
+    <tr align="center">
+        <td>ID</td>
+        <td>Name</td>
+        <td>Age</td>
+        <td>DOB</td>
+    </tr>
+    <tr *ngFor="let k of list">
+        <td>{{k.studentID}}</td>
+        <td>{{k.studentName}}</td>
+        <td>{{k.studentAge}}</td>
+        <td>{{k.studentDOB|date}}</td>
+    </tr>
+</table>

@@ -1,0 +1,22 @@
+<h3>*ngFor</h3>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th *ngIf="flag">Designation</th>
+        <th *ngIf="flag">Salary</th>
+        <th *ngIf="flag">JoinDate</th>
+    </tr>
+    <tr *ngFor="let i of list">
+        <td>{{i.eId}}</td>
+        <td>{{i.eName}}</td>
+        <td *ngIf="flag">{{i.designation}}</td>
+        <td *ngIf="flag">{{i.salary}}</td>
+        <td *ngIf="flag">{{i.joinDate|date}}</td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <button (click)="setInfo()">{{flag?'LessInfo':'MoreInfo'}}</button>
+        </td>
+    </tr>
+</table>

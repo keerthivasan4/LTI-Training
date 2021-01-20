@@ -1,0 +1,25 @@
+#head{
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(150, 89, 150);
+    width:475px;
+    padding: 5px;
+    /* background-color: rgb(150, 89, 150);
+    color:white;
+    text-decoration: solid; */
+}
+div{
+    border:2px solid black;
+    width: 70%;
+    padding: 20px;
+    margin: 30px;
+}
+td{
+    padding: 10px;
+    background-color: thistle;
+    font-weight: bold;
+    border: 2px solid rgb(150, 89, 150);
+}
+tr{
+    padding: 0;
+}

@@ -1,0 +1,18 @@
+<div>
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" [(ngModel)]="uname" /></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" [(ngModel)]="pass" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button (click)="v()">Validate</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span style="color: red;">{{err}}</span></td>
+        </tr>
+    </table>
+</div>

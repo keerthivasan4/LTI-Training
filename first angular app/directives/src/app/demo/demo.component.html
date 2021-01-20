@@ -1,0 +1,7 @@
+<div *ngIf="t else block">
+    hi hello
+  </div>
+  <ng-template #block>
+    <br>
+  </ng-template>
+  <button (click)="toggle()">{{!t?'Show':'Hide'}}</button>

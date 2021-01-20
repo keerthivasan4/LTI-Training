@@ -1,0 +1,27 @@
+h3,button{
+    
+    margin-left:5%;
+}
+div{
+    padding:5px;
+    margin-top:10px;
+    width:1200px;
+    margin-left:5%;
+    border:1px;
+    border-color:white;
+    background-color:white;
+    text-align:center;
+    height:410px;
+
+}
+button{
+    padding:8px;
+    /* width:100px; */
+    border:none;
+    background-color:#00029c;
+    color:white;
+    width:320px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}

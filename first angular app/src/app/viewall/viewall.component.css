@@ -1,0 +1,10 @@
+table{
+    /* border: 1 solid green; */
+    width:500px;
+    /* height:300px; */
+}
+td{
+    background-color: rgb(70, 209, 209);
+    font-weight: bold;
+    text-align: center;
+}

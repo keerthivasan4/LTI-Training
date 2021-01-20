@@ -1,0 +1,11 @@
+<div align="center">
+<div id="head">Employee List</div>
+<table>
+    <tr>
+        <td class="tr1">ID</td><td class="tr1">Name</td><td class="tr1">Designation</td><td class="tr1">Salary</td><td class="tr1">Join Date</td>
+    </tr>
+    <tr *ngFor="let obj of listEmployee">
+        <td>{{obj.employeeId}}</td><td>{{obj.employeeName}}</td><td>{{obj.employeeDesignation}}</td><td>{{obj.employeeSalary}}</td><td>{{obj.employeeJoinDate|date}}</td>
+    </tr>
+</table>
+</div>

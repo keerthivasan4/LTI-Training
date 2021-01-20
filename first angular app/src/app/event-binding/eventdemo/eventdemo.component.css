@@ -1,0 +1,33 @@
+div{
+    border:2px solid black;
+    margin:25px;
+    padding:10px;
+    width:500px;
+}
+button{
+    width:150px;
+    padding:5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border:2px solid black;
+    font-weight: bold;
+    border-radius: 3px 10px 3px 3px;;
+}
+#incButton{
+    background-color: green;
+    color:white;
+}
+#decButton{
+    background-color: red;
+    color:white;
+}
+select{
+    width:150px;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+}
+#ctrySpan{
+    color:green;
+}

@@ -1,0 +1,16 @@
+
+h2,div{
+    margin:20px;
+    border: 2px solid black;
+    padding: 15px;
+    width:500px;
+}
+table,input,button,select{
+    width:100%;
+}
+td{
+    text-align: left;
+}
+#dtable td{
+    text-align: center;
+}

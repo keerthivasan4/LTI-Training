@@ -1,0 +1,10 @@
+div{
+    border:3px solid black;
+    width:200px;
+    padding:5px;
+}
+select{
+    width:130px;
+    height: 20px;
+    font-weight: bold;
+}

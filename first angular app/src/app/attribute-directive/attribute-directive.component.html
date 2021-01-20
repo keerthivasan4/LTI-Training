@@ -1,0 +1,40 @@
+<!-- <p>attribute-directive works!</p> -->
+
+<div [ngStyle]="{'color': cN,
+    'width':'50%',
+    'border':'2px solid black',
+    'padding':'5px',
+    'padding-left':'15px',
+    'font-weight':'bold'
+    }">
+    Attribute Directive NG-Style!
+</div>
+<br>
+<div [ngStyle]="{
+    'color': toggle?'green':'red',
+    'width':'50%',
+    'border':'2px solid black',
+    'padding':'5px',
+    'padding-left':'15px',
+    'font-weight':'bold'
+    }">
+    Toggle
+    <br><br>
+    <button (click)="setToggle()" [ngStyle]="{'width': '50px',
+        'font-weight':'bold',
+        'color':toggle?'red':'green'
+        }">{{toggle?'red':'green'}}</button>
+</div>
+<br>
+<div [ngStyle]="{
+    'color': clr,
+    'border-color':clr
+    }">
+    Input Color <br><br>
+    <input type="text" [(ngModel)]="clr" />
+    <br>
+    .
+</div>
+<div [ngClass]="{'ngc': true}">
+    ngClass
+</div>

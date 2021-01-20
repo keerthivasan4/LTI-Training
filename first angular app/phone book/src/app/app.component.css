@@ -1,0 +1,121 @@
+#divmain{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    padding:10px;
+    /* height: 100%; */
+    background-color: rgb(247, 247, 247);
+    /* font-weight: bold; */
+}
+#contactSpan{
+    float:left;
+    margin-left: 20px;
+    color:black;
+}
+#addButton{
+    float: right;
+    width:120px;
+    height: 30px;
+    background-color: blue;
+    color:white;
+    border: 1px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+#displayButton{
+    border: none;
+    background-color:  rgb(247, 247, 247);
+    font-weight: bold;
+}
+#searchIp{
+    width: 92.6%;
+    margin-left: 25px;
+    /* margin-right: 20px; */
+    padding: 5px 0 5px 5px;
+}
+.divide{
+    padding:10px;
+    /* height: 100px; */
+    background-color: rgb(247, 247, 247);
+}
+#t1{
+    width: 94.6%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 0 5px 5px;
+}
+.phoneNumberSpan{
+    font-size: medium;
+    color: grey;
+    margin: 15px;
+}
+.nameSpan{
+    font-size: large;
+    font-weight: bold;
+}
+.td1{
+    /* border-bottom: 1px solid grey; */
+    background-color: white;
+    padding: 5px;
+    padding-left: 10px;
+}
+.forB{
+    float:right;
+    margin-top: 9px;
+    background-color: red;
+    color: white;
+    border:1px solid red;
+    font-weight: bold;
+}
+#searchButton{
+    margin-left: 25px;
+    margin-top: 9px;
+    padding:3px 5px 3px 5px;
+    background-color: red;
+    color: white;
+    border:1px solid red;
+    font-weight: bold;
+}
+#searchSpan{
+    width: 92.6%;
+    margin-left: 25px;
+    padding: 5px 0 5px 5px;
+    background-color: white;
+}
+#saveButton{
+    /* margin-left: 25px; */
+    margin-top: 9px;
+    padding:3px 5px 3px 5px;
+    background-color: red;
+    color: white;
+    border:1px solid red;
+    width: 200px;
+    font-weight: bold;
+}
+.bs{
+    margin-right:25px;
+    border:none;
+    background-color:  rgb(247, 247, 247);
+    font-weight:bold;
+    padding:3px;
+}
+#bsc{
+    text-align: center;
+}
+#addD{
+    margin-left: 25px;
+    color:black;
+}
+#ip,#in{
+    margin-top: 5px;
+    width: 96.5%;
+    padding: 3px 0 3px 3px;
+}
+#sortS{
+    margin-top: 5px;
+    width: 96.5%;
+    padding: 3px 0 3px 3px;
+}

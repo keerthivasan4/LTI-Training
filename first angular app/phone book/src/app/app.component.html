@@ -1,0 +1,47 @@
+
+<h1 style="text-align: center;">Phone Book App</h1>
+<div id="divmain">
+    <span id="contactSpan">
+      <button id="displayButton" (click)="addVar=1">
+        <h3>Contacts</h3>
+      </button>
+    </span>
+  <button id="addButton" (click)="addVar=2">+Add Contact</button>
+  <br>
+  <input type="text" id="searchIp" (click)="addVar=3" ngDefaultControl [(ngModel)]="srch" placeholder="Search for contact by last name"/>
+  
+    <div class="divide" *ngIf="addVar==1">
+      <div id="bsc">
+        <button class="bs" (click)="sortByName()">Name {{nameT?'&#8613;':'&#8615;'}}</button>
+        <button class="bs" (click)="sortByPhone()">Phone {{phoneT?'&#8613;':'&#8615;'}}</button>
+     </div>
+      <table *ngFor="let item of list" id="t1">
+        <tr>
+            <td [id]="item.contactName" class="td1">
+                <span class="nameSpan" [value]="item.contactName" #sp>{{item.contactName}}</span>
+                <button class="forB" (click)="deleteContact(sp.value)" >Delete</button>
+                <br>
+                <span class="phoneNumberSpan"> {{  item.phoneNumber}}</span>
+            </td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <div *ngIf="addVar==2" id="addD">
+        <h3 id="addH">Add Contact</h3>
+        <input type="text" id="in" [(ngModel)]="ipname" placeholder="Name" /><br>
+        <input type="text" id="ip" [(ngModel)]="ipphone" placeholder="Contact Number" /><br>
+        <button id="saveButton" (click)="valid()" value="SAVE">Save</button>
+        
+    </div>
+
+    <div *ngIf="addVar==3">
+      <button id="searchButton" (click)="searchcont()" [(ngModel)]="srch">Search Contact</button>
+      <br><br>
+      <div id="searchSpan">
+        <b>{{cname}}</b>
+        <br>
+        {{cph}}
+      </div>
+    </div>
+</div>

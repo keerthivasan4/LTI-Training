@@ -1,0 +1,38 @@
+<h2 style="margin:25px">Event Binding </h2>
+<div>
+    Event Binding_1<br>
+    <button (click)="greet()" >Click{{info}}</button>
+    <span>  Hello {{name}}</span><br><br>
+    <input type="text" (input)="greeting($event)" />
+</div>
+<div>
+    Event Binding_2<br>
+    <button (mouseover)="increment()" id="incButton">Increment {{count}}</button><br>
+    <button (mouseout)="decrement()" id="decButton">Decrement {{count}}</button><br>
+    <span>Total Clicks: {{tcount}}</span>
+</div>
+<div>
+    Event Binding_3<br><br>
+    <span>Select Country </span>
+    <!-- //event payloads or reference variable -->
+    <select (change)="getCountry(selectCtry.value)" #selectCtry>
+        <option></option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="USA">USA</option>
+    </select>
+    <br>
+    <span>Country:</span> <span id="ctrySpan">  {{ctry}}</span>
+</div>
+<div>
+    Event Binding_4<br><br>
+    <input type="text" (input)="print($event)" #i/>
+    <span>  {{printVal}}</span><br><br>
+</div>
+<!-- <div>
+    Event Binding_5<br><br>
+    <span>Enter Name</span><br><br>
+    <input type="text" value="name5">
+    <button (click)="greet5()">Click Me!</button><br><br>
+    <span>{{msg5}}</span>
+</div> -->
